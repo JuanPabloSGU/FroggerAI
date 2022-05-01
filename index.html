@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AI Plays Frogger</title>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+    <canvas id="networkCanvas"></canvas>
+    <div id="verticalButtons">
+        <div id="verticalButtons">
+            <button onclick="save()">💾</button>
+            <button onclick="discard()">🗑️</button>
+        </div>
+    </div>
+    <script src="./src/visualizer.js"></script>
+    <script src="./src/network.js"></script>
+    <script src="./src/sensor.js"></script>
+    <script src="./src/utils.js"></script>
+    <script src="./src/road.js"></script>
+    <script src="./src/controls.js"></script>
+    <script src="./src/frog.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
